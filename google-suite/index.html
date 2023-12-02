@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <style>
+        a.btn {
+            transition: transform 200ms ease;
+        }
+
+        a.btn:hover {
+            transform: translateY(-20px);
+        }
+    </style>
+  </head>
+  <body data-bs-theme="dark" class="m-0 d-flex flex-row vw-100 vh-100 align-items-center justify-content-center flex-column gap-4">
+    <h1><i class="bi bi-google"></i> Office Suite</h1>
+    <div class="d-flex flex-row gap-4">
+        <a href="https://docs.google.com/document/u/0/" class="btn w-100 border-primary-subtle d-flex flex-column gap-2 align-items-center justify-content-between p-4 rounded shadow-lg border user-select-none cursor-pointer" style="--color: #4285F4; --bs-primary-border-subtle:var(--color); --bs-btn-color: var(--color); --bs-btn-hover-color: var(--color);">
+            <i class="bi bi-file-earmark-text display-1"></i>
+            <span>Google Docs</span>
+        </a>
+        <a href="https://docs.google.com/spreadsheets/u/0/" class="btn w-100 border-primary-subtle d-flex flex-column gap-2 align-items-center justify-content-between p-4 rounded shadow-lg border user-select-none cursor-pointer" style="--color: #34A853; --bs-primary-border-subtle:var(--color); --bs-btn-color: var(--color); --bs-btn-hover-color: var(--color);">
+            <i class="bi bi-file-earmark-bar-graph display-1"></i>
+            <span>Google Sheets</span>
+        </a>
+        <a href="https://docs.google.com/presentation/u/0/" class="btn w-100 border-primary-subtle d-flex flex-column gap-2 align-items-center justify-content-between p-4 rounded shadow-lg border user-select-none cursor-pointer" style="--color: #FFCE04; --bs-primary-border-subtle:var(--color); --bs-btn-color: var(--color); --bs-btn-hover-color: var(--color);">
+            <i class="bi bi-file-earmark-slides display-1"></i>
+            <span>Google Presentations</span>
+        </a>
+        <a href="https://docs.google.com/forms/u/0/" class="btn w-100 border-primary-subtle d-flex flex-column gap-2 align-items-center justify-content-between p-4 rounded shadow-lg border user-select-none cursor-pointer" style="--color: #7248B9; --bs-primary-border-subtle:var(--color); --bs-btn-color: var(--color); --bs-btn-hover-color: var(--color);">
+            <i class="bi bi-file-earmark-check display-1"></i>
+            <span>Google Forms</span>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
